@@ -766,6 +766,11 @@ Prefab:
       propertyPath: m_Name
       value: ball (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 135278286702378636, guid: d26056a2473fbc64681b8f9ec1bd2a60,
+        type: 2}
+      propertyPath: m_Radius
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d26056a2473fbc64681b8f9ec1bd2a60, type: 2}
   m_IsPrefabAsset: 0
