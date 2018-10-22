@@ -6,10 +6,11 @@ public class gyroControl : MonoBehaviour {
 
     private bool isFlat = true;
     private Rigidbody rb;
-    private float counter = 0;
+    //private float counter;
 
 	void Start () {
         rb = gameObject.GetComponent<Rigidbody>();
+       
 	}
 	
 	// Update is called once per frame
@@ -21,7 +22,7 @@ public class gyroControl : MonoBehaviour {
         rb.AddForce(tilt*30);
 	}
 
-    private void OnCollisionEnter(Collision collider)
+   /* private void OnCollisionEnter(Collision collider)
     {
         if (collider.gameObject.tag == "finishArea") {
             counter++;
@@ -30,5 +31,17 @@ public class gyroControl : MonoBehaviour {
            
 
     }
+
+    private void OnCollisionExit(Collision collider)
+    {
+        if (collider.gameObject.tag == "finishArea")
+        {
+            counter--;
+            Debug.Log(counter);
+        }
+
+
+    }
+    */
 
 }
