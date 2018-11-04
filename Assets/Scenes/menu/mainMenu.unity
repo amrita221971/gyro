@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 33449938}
   - component: {fileID: 33449937}
   m_Layer: 5
-  m_Name: settingsButton
+  m_Name: volButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -169,8 +169,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.6320754, g: 0.58139014, b: 0.58139014, a: 1}
-    m_PressedColor: {r: 0.8679245, g: 0.8493571, b: 0.5444998, a: 1}
+    m_HighlightedColor: {r: 0.7058824, g: 0.6901961, b: 0.6901961, a: 1}
+    m_PressedColor: {r: 0.9529412, g: 0.7176471, b: 0.19215687, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1074,9 +1074,9 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.9528302, g: 0.87680316, b: 0.1033731, a: 1}
-    m_HighlightedColor: {r: 0.6415094, g: 0.46692982, b: 0.31167677, a: 1}
-    m_PressedColor: {r: 0.6698113, g: 0.3228655, b: 0.072668225, a: 1}
+    m_NormalColor: {r: 0.764151, g: 0.749949, b: 0.6019491, a: 1}
+    m_HighlightedColor: {r: 0.7058824, g: 0.6901961, b: 0.6901961, a: 1}
+    m_PressedColor: {r: 0.9529412, g: 0.7176471, b: 0.19215687, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
